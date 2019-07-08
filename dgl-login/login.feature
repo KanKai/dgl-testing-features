@@ -4,7 +4,7 @@ Feature: DGL Login feature
       Given I visit DGL Site
       When I input email and password
          |   email                     |   password    |
-         |   jeerawat@addtechhub.com   |   #Dgl.1901   |  
+         |   jeerawat@addtechhub.com   |   #Dgl.19011   |  
       And I click remember      
       When Press Login
       Then  I have some results
